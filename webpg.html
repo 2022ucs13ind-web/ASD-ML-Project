@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Background Image Example</title>
+<style>
+    body {
+        background-image: url(https://wallpaperaccess.com/full/20601.jpg);
+        background-size: cover; /* Cover the entire background */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-position: center; /* Center the image horizontally and vertically */
+        height: 100vh; /* Full height of the viewport */
+        margin: 0; /* Remove default margin */
+        display: flex; /* Flexbox for centering content */
+        justify-content: center; /* Center content horizontally */
+        align-items: center; /* Center content vertically */
+        text-align: center; /* Center text */
+        color: white; /* Text color */
+        font-family: Arial, sans-serif; /* Font */
+    }
+    .content {
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+        padding: 20px; /* Padding inside the content */
+        border-radius: 10px; /* Rounded corners */
+        max-width: 600px; /* Limit width for better readability */
+        width: 90%; /* Responsive width */
+    }
+    .content h1 {
+        margin-top: 0; /* Remove default margin for h1 */
+    }
+</style>
+</head>
+<body>
+
+<div class="content">
+    <h1>Detection of Autism Spectrum Disorder</h1>
+    <p>it is an detection of Autism Spectrum Disorder Screening and Diagosis using Machine Learning </p>
+    <button onclick="redirectToLogin()">Log In</button>
+    <button onclick="redirectToSignin()">Sign In</button>
+
+
+  <script>
+    function redirectToLogin() {
+      window.location.href = "sec.html";
+    }
+    function redirectToSignin() {
+      window.location.href = "three.html";
+    }
+  </script>
+</div>
+</body>
+</html>
